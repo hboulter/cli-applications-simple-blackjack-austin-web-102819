@@ -29,7 +29,6 @@ def initial_round
   card_two = deal_card
   card_total = card_one + card_two
   puts display_card_total(card_total)
-  binding.pry
 end
 
 def hit?
